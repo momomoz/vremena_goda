@@ -1,0 +1,95 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+h2, h3{
+    color: rgb(60, 165, 106);
+    padding: 2%;    
+    text-align: center;
+}
+.card{
+    border-radius: 5px;
+    width: 25%;
+    padding: 10%;
+    margin: 2%;
+    float: left;
+    align-content: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.winter:hover{
+    color: rgb(42, 106, 224);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.774);
+}
+.spring:hover{
+    color: rgb(204, 67, 112);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.774);
+}
+.summer:hover{
+    color: rgb(43, 175, 43);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.774);
+    
+}
+.autumn:hover{
+    color: rgb(194, 108, 3);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.774);
+}
+
+.blue{    
+    text-align: center;
+    background-color: rgb(158, 218, 255);
+}
+.pink{    
+    text-align: center;
+    background-color: pink;
+}
+.green{
+    text-align: center;
+    background-color: rgb(191, 255, 96);
+}
+.orange{
+    text-align: center;
+    background-color: rgb(255, 200, 97);
+}
+
+.img{
+    width: 250px;
+}
+
+.card_weather{
+    border-radius: 5px;
+    width: auto;
+    margin: 0 5%;
+    float: left;
+    align-content: center;
+}
+@media screen and (min-width:570px) and (max-width: 930px){
+    .img{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 630px){
+    
+    .img{
+        width: 200px;
+    }
+}
+.footer{
+    position: absolute;
+    top: 610px;
+    margin: 0 45%;
+    font-size: 42px;
+}
+.avtor{
+    position: absolute;
+    top: 950px;
+    margin: 10%;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: dimgray;    
+    width: 80%;
+    text-align: center;
+}
